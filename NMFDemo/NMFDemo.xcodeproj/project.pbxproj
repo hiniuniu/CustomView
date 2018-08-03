@@ -16,6 +16,7 @@
 		A8A6DCBB1EE82E2200026814 /* NMFDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A6DCBA1EE82E2200026814 /* NMFDemoTests.m */; };
 		A8A6DCC61EE82E2200026814 /* NMFDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A6DCC51EE82E2200026814 /* NMFDemoUITests.m */; };
 		A8A6DCD51EE82E7600026814 /* ChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A6DCD41EE82E7600026814 /* ChildView.m */; };
+		EF9EF3832113EB12002635F2 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EF3822113EB12002635F2 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A8A6DCC71EE82E2200026814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8A6DCD31EE82E7600026814 /* ChildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildView.h; sourceTree = "<group>"; };
 		A8A6DCD41EE82E7600026814 /* ChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildView.m; sourceTree = "<group>"; };
+		EF9EF3812113EB12002635F2 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		EF9EF3822113EB12002635F2 /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				A8A6DCA41EE82E2200026814 /* AppDelegate.m */,
 				A8A6DCA61EE82E2200026814 /* ViewController.h */,
 				A8A6DCA71EE82E2200026814 /* ViewController.m */,
+				EF9EF3812113EB12002635F2 /* CustomView.h */,
+				EF9EF3822113EB12002635F2 /* CustomView.m */,
 				A8A6DCD31EE82E7600026814 /* ChildView.h */,
 				A8A6DCD41EE82E7600026814 /* ChildView.m */,
 				A8A6DCA91EE82E2200026814 /* Main.storyboard */,
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9EF3832113EB12002635F2 /* CustomView.m in Sources */,
 				A8A6DCA81EE82E2200026814 /* ViewController.m in Sources */,
 				A8A6DCD51EE82E7600026814 /* ChildView.m in Sources */,
 				A8A6DCA51EE82E2200026814 /* AppDelegate.m in Sources */,
@@ -513,6 +519,7 @@
 				A8A6DCCC1EE82E2200026814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8A6DCCD1EE82E2200026814 /* Build configuration list for PBXNativeTarget "NMFDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				A8A6DCCF1EE82E2200026814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8A6DCD01EE82E2200026814 /* Build configuration list for PBXNativeTarget "NMFDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +537,7 @@
 				A8A6DCD21EE82E2200026814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
